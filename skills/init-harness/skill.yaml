@@ -1,0 +1,7 @@
+name: init-harness
+description: Generates a complete Harness scaffold for a project with a root AGENTS.md, `.codex` SessionStart hook files, cross-platform init scripts, requirements and design docs, constraint docs, and task scaffolding. Use when initializing a project for Codex, regenerating AGENTS.md, scaffolding agent-facing docs, or setting up a long-running Harness workflow.
+version: 0.1.0
+targets:
+  - codex
+  - claude-code
+  - antigravity
